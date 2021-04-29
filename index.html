@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="signup-window">
+        <div class="topinformation">
+            <h1>Sign up to Workspace</h1>
+            <div class="social-signup">
+                <button class="google">
+                    <img src="images/google.svg" />
+                    <p>Sign up with Google</p>
+                </button>
+                <button class="social-network">
+                    <img src="images/facebook.svg"/>
+                </button>
+                <button class="social-network">
+                    <img src="images/twitter.svg"/>
+                </button>
+            </div>
+        </div>
+        <form method="post">
+            <div class="name">
+                <input type="text" placeholder="Full Name" name="fullname" id="fullname" class="shortinput">
+                <input type="text" placeholder="Username" id="username" class="shortinput">
+            </div>
+            <input type="text" placeholder="Email" class="longinput">
+            <input placeholder="Password" type="password" name="user-password" id="user-pwd" class="longinput">
+            <label>
+                <input type="checkbox" name="confirm" id="confirm">
+                Creating an account means you're okay with our<span class="terms" href="#"> Terms of<br> service, Privacy Policy</span>, and our default <span class="terms" href="#"> Notification Setting</span>.
+            </label>
+            <button class="create">Create Account</button>
+        </form>
+    </div>
+    
+</body>
+</html>
